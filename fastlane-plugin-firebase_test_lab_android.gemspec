@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fastlane/plugin/firebase_test_lab_android/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fastlane-plugin-firebase_test_lab_android_fork'
+  spec.name          = 'fastlane-plugin-firebase_test_lab_android'
   spec.version       = Fastlane::FirebaseTestLabAndroid::VERSION
   spec.author        = 'wasabeef'
   spec.email         = 'dadadada.chop@gmail.com'
